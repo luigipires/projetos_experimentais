@@ -1,0 +1,524 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-size: cover;
+	background-image: url('bg.jpg');
+	background-position: center;
+	height: 96%;
+}
+.cabecalho{
+	height: 110px;
+	padding: 3%;
+}
+.logo{
+	background-image: url('logomarca.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 60px;
+	float: left;
+}
+.desktop{
+	margin: 5px 0;
+	float: right;
+}
+.desktop>ul{
+	list-style-type: none;
+}
+.desktop>ul>li{
+	float: left;
+	margin: 0 18px;
+}
+.desktop>ul>li>a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.orcamento{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 10px;
+	border: 2px solid white;
+}
+.mobile{
+	width: 64px;
+	height: 64px;
+	display: none;
+	cursor: pointer;
+	background-image: url('menu.png');
+	background-size: cover;
+	float: right;
+}
+.mobile>ul{
+	position: absolute;
+	left: 0;
+	top: 85px;
+	width: 100%;
+	background-color: #132866;
+	list-style-type: none;
+}
+.mobile>ul>li{
+	padding: 20px 0;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.mobile>ul>li:hover{
+	background-color: #1d3a91;
+}
+.mobile>ul>li>a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.cabecalho02{
+	margin-top: 100px;
+	padding-left: 7%;
+	width: 80%;
+}
+.cabecalho02>h2{
+	font-size: 37px;
+	font-weight: 300;
+	color: white;
+	padding-bottom: 25px;
+}
+.cabecalho02>p{
+	font-size: 20px;
+	color: white;
+	padding-bottom: 35px;
+}
+.cabecalho02>input{
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	outline: 0;
+	font-size: 15px;
+	padding: 2.5%;
+	border:0;
+	margin-right: 10px;
+}
+.cabecalho02>a{
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	outline: 0;
+	font-size: 18px;
+	padding: 10px 6%;
+	text-align: center;
+	border:0;
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+}
+/****/
+.paragrafo{
+	width: 50%;
+	margin: 50px auto;
+}
+.paragrafo>p{
+	font-size: 20px;
+	text-align: justify;
+}
+/***/
+.sessao01{
+	padding-left: 30px;
+	padding-right: 10px;
+	width: 90%;
+	margin: 30px auto;
+	padding-bottom: 25px;
+}
+.paragrafo01{
+	margin-top: 20px;
+	width: 45%;
+	float: left;
+	padding-right: 15px;
+}
+.paragrafo01>h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+.paragrafo01>p{
+	margin-top: 20px;
+	font-size: 17px;
+	text-align: justify;
+}
+.foto{
+	float: right;
+	background-image: url('mockup1.jpg');
+	background-size: 100% 100%;
+	width: 53%;
+	height: 320px;
+	margin: 0 auto;
+}
+/****/
+.espaco{
+	margin-bottom: 40px;
+	padding: 5% 2%;
+}
+.fotoprincipal{
+	width: 90%;
+	position: relative;
+	background-size: cover;
+	background-image: url('bg2.jpg');
+	background-position: center;
+	height: 550px;
+	margin: 0 auto;
+}
+.texto{
+	left: 40%;
+	top: 66%;
+	position: absolute;
+	width: 50%;
+	border: 2px solid rgb(237,237,237);
+	padding: 4%;
+	background-color: white;
+}
+.texto>p{
+	text-align: justify;
+	font-size: 18px;
+}
+.texto>h4{
+	margin-top: 20px;
+	font-size: 22px;
+}
+/****/
+.titulo{
+	padding: 6% 2%;
+}
+.titulo>h2{
+	text-align: center;
+	font-size: 30px;
+	color: #1c0840;
+}
+.servicos{
+	width: 100%;
+	padding: 5% 0;
+}
+.titulo>h3{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 50px;
+	color: #1c0840;
+}
+.servicosprincipal{
+	float: left;
+	padding: 0 2%;
+	position: relative;
+	width: calc(100% / 3);
+}
+.servicos-single{
+	padding-bottom: 34px;
+	margin: 30px 0;
+	display: inline-block;
+	border:0.1px solid #b0afb3;
+	box-shadow: 5px 10px 15px #b0afb3;
+}
+.servicos-single>img{
+	max-width: 100%;
+}
+.servicos-single>h2{
+	font-size: 20px;
+	padding:20px;
+}
+.servicos-single>p{
+	font-size: 14px;
+	padding: 0 15px 15px 15px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.servicos-single>a{
+	border:2px solid black;
+	font-size: 17px;
+	width: 50%;
+	text-decoration: none;
+	color: black;
+	margin-left: 13px;
+	padding: 10px 17px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+/****/
+.div1{
+	background-color: #F6F6F6;
+	padding:3%;
+	width: 92%;
+	margin: 0 auto;
+}
+.div1>h2{
+	text-align: center;
+	font-size: 32px;
+	color: #1c0840;
+	font-weight: 300;
+}
+.fotos{
+	margin: 60px auto;
+	text-align: center;
+	width: 100%;
+}
+.fotos>div{
+	display: inline-block;
+	width: calc(93% / 4);
+	border: 1px solid #ececec;
+	height: 110px;
+	background-size: 100% 100%;
+	background-position: center;
+}
+/****/
+.formulario{
+	padding:4% 3%;
+}
+.formulario>h2{
+	text-align: center;
+	font-size: 32px;
+	color: #1c0840;
+}
+.formulario>form{
+	width: 100%;
+	padding: 3% 0;
+	margin: 0 auto;
+}
+.inputs>div{
+	margin: 20px 0;
+	text-align: center;
+}
+.inputs>div>input[type=text]{
+	width: 400px;
+	height: 40px;
+	border-radius: 30px;
+	outline: 0;
+	border: 1px solid #1c0840;
+	padding: 20px;
+}
+.inputs>div>input[type=email]{
+	width: 400px;
+	height: 40px;
+	outline: 0;
+	border-radius: 30px;
+	border: 1px solid #1c0840;
+	padding: 20px;
+}
+.inputs>div>textarea{
+	width: 400px;
+	height: 220px;
+	resize: none;
+	border-radius: 20px;
+	border: 1px solid #1c0840;
+	padding: 15px;
+	outline: 0;
+}
+.inputs>div>input[type=submit]{
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	border: 0;
+	padding: 10px;
+	margin: 20px auto;
+	cursor: pointer;
+	outline: 0;
+	font-size: 19px;
+	color: white;
+	background-color: orange;
+}
+/****/
+.div2{
+	width: 92%;
+	margin: 0 auto;
+	padding: 2% 0;
+}
+.pre-rodape1{
+	width: 50%;
+	background-size: 100% 100%;
+	height: 500px;
+	position: relative;
+	float: left;
+}
+.pre-rodape1>p{
+	position: absolute;
+	font-size: 35px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: underline;
+	color: white;
+	left: 38%;
+	right: 62%;
+	float: left;
+	cursor: pointer;
+	top: 43%;
+}
+.pre-rodape2{
+	width: 50%;
+	background-size: 100% 100%;
+	background-color: rgba(1, 7, 117, 0.3);
+	height: 500px;
+	position: relative;
+	float: left;
+}
+.pre-rodape2>p{
+	float: left;
+	position: absolute;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+	margin: 0 auto;
+	cursor: pointer;
+	left: 30%;
+	right: 30%;
+	top: 40%;
+}
+.fundo1{
+	width: 100%;
+	height: 500px;
+	background-color: rgba(4, 7, 74, 0.5);
+}
+.fundo2{
+	width: 100%;
+	height: 500px;
+	background-color: rgba(4, 7, 74, 0.8);
+}
+/****/
+.rodape{
+	padding:14% 2% 5% 2%;
+}
+.rodape01{
+	padding-bottom: 20px;
+	float: left;
+	width: calc(100% / 3);
+}
+.rodape01>h2{
+	font-size: 22px;
+	color: #1c0840;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.rodape01>p{
+	text-align: center;
+	color: #1c0840;
+	font-size: 18px;
+}
+.rodape01>input[type=email]{
+	width: 230px;
+	height: 40px;
+	outline: 0;
+	border-radius: 30px;
+	border: 1px solid #1c0840;
+	padding: 10px;
+	margin: 20px auto;
+	display: block;
+}
+
+/*************/
+
+@media screen and (max-width: 855px){
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.logo{
+		margin-top: 5px;
+	}
+	.cabecalho02{
+		float: none;
+		margin: 100px auto 0 auto;
+		text-align: center;
+		padding: 0;
+	}
+	.cabecalho02>input{
+		width: auto;
+	}
+	.cabecalho02>a{
+		width: 50%;
+	}
+	.texto{
+		margin: 0 auto;
+		left: 0;
+		position: relative;
+		top: 30%;
+		width: 70%;
+	}
+	.texto>h4{
+		text-align: center;
+	}
+	.rodape{
+		padding: 5%;
+	}
+	.rodape01{
+		width: 100%;
+		float: none;
+		margin: 15px auto;
+	}
+}
+
+@media screen and (max-width: 845px){
+	.paragrafo01{
+		width: 100%;
+		float: none;
+	}
+	.paragrafo01>p{
+		width: 80%;
+		margin: 30px auto;
+	}
+	.foto{
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+		height:400px;
+	}
+	.paragrafo{
+		width: 64%;
+		margin: 50px auto;
+	}
+	.servicosprincipal{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+	.servicos-single{
+		width: 70%;
+		display: block;
+		margin: 30px auto;
+		text-align: center;
+	}
+	.servicos-single>p{
+		width: 80%;
+		margin: 0 auto 20px auto;
+	}
+	.fotos>div{
+		width: 50%;
+		height: 200px;
+		margin: 20px 0;
+	}
+}
+
+@media screen and (max-width: 930px){
+	.pre-rodape1{
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+	.pre-rodape2{
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+		right: 0;
+		left: 0;
+	}
+}
